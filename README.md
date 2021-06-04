@@ -50,11 +50,14 @@ The scores and performance audio files are obtained from [MuseScore.com](https:/
 
 The URLs to the original source can be obtained by using the following URL format:
 ```
-https://bit.ly/qualscofo-(musescore|youtube)-<GROUP_ID>-<PIECE_ID>
+https://bit.ly/qualscofo-(musescore|youtube)-<GROUP_ID>-<PIECE_ID_PREDASH>
 ```
-For instance, the YouTube URL for the `suite1` piece in the `cello` group is 
+
+`<PIECE_ID_PREDASH>` denotes the Piece ID characters prior to the first occuring dash (`-`).
+
+For instance, the YouTube URL for the `chaconne-arp` piece in the `violin` group is 
 ```
-https://bit.ly/qualscofo-youtube-cello-suite1
+https://bit.ly/qualscofo-youtube-violin-chaconne
 ```
 
 Note that the performance audio of the pieces `prelude` and `fugue` in the `piano` group are not obtained from YouTube but from the [MAESTRO dataset](https://magenta.tensorflow.org/datasets/maestro).
