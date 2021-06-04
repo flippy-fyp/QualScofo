@@ -9,11 +9,11 @@ See the [project report](https://github.com/flippy-fyp/flippy-report/blob/main/m
 ```bash
 |---<GROUP_ID>
     |---<PIECE_ID>
-        |---<PIECE>.mid     # score midi
-            <PIECE>.mscz    # MuseScore file
-            <PIECE>.mxl     # MusicXML file
-            <PIECE>.pdf     # PDF file
-            <PIECE>.wav     # Performance wave file
+        |---<PIECE>.mid     # Score midi
+            <PIECE>.mscz    # Score MuseScore file
+            <PIECE>.mxl     # Score MusicXML file
+            <PIECE>.pdf     # Score PDF file
+            <PIECE>.wav     # Performance audio wave file
         |---raw
             # Contains raw files used to create the data in the parent directory (e.g. full preformance mp3, full MuseScore file, etc.)
 ```
@@ -46,7 +46,7 @@ violin
 
 ## Sources
 
-The scores and performance audio are obtained from [MuseScore.com](https://musescore.com) and [YouTube](https://youtube.com) respectively.
+The scores and performance audio files are obtained from [MuseScore.com](https://musescore.com) and [YouTube](https://youtube.com) respectively. [Downloadasaur](https://www.downloadasaur.com) was used to obtain audio files from YouTube.
 
 The URLs to the original source can be obtained by using the following URL format:
 ```
