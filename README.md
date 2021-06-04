@@ -14,8 +14,8 @@ See the [project report](https://github.com/flippy-fyp/flippy-report/blob/main/m
             <PIECE>.mxl     # Score MusicXML file
             <PIECE>.pdf     # Score PDF file
             <PIECE>.wav     # Performance audio wave file
-        |---raw
-            # Contains raw files used to create the data in the parent directory (e.g. full preformance mp3, full MuseScore file, etc.)
+            |---raw
+                # Contains raw files used to create the data in the parent directory (e.g. full preformance mp3, full MuseScore file, etc.)
 ```
 
 Possible combinations of `<GROUP_ID>` and `<PIECE_ID>` are:
