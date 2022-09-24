@@ -2,7 +2,7 @@
 
 A **Qual**itative **Sco**re-**fo**llowing dataset.
 
-See the [project report](https://github.com/flippy-fyp/flippy-report/blob/main/main.pdf) for more information.
+See the [project report](https://arxiv.org/abs/2205.03247) for more information.
 
 ## Structure
 
@@ -55,7 +55,7 @@ https://bit.ly/qualscofo-(musescore|youtube)-<GROUP_ID>-<PIECE_ID_PREDASH>
 
 `<PIECE_ID_PREDASH>` denotes the Piece ID characters prior to the first occuring dash (`-`).
 
-For instance, the YouTube URL for the `chaconne-arp` piece in the `violin` group is 
+For instance, the YouTube URL for the `chaconne-arp` piece in the `violin` group is
 ```
 https://bit.ly/qualscofo-youtube-violin-chaconne
 ```
@@ -72,4 +72,16 @@ Under section 107 of the Copyright Act of 1976, allowance is made for "fair use"
 
 ## Citing
 
-TBA.
+### BibTeX
+```
+@misc{https://doi.org/10.48550/arxiv.2205.03247,
+  doi = {10.48550/ARXIV.2205.03247},
+  url = {https://arxiv.org/abs/2205.03247},
+  author = {Lee, Lin Hao},
+  keywords = {Sound (cs.SD), Audio and Speech Processing (eess.AS), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  title = {Musical Score Following and Audio Alignment},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
